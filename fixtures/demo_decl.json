@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {"name": "region", "type": "text"},
+    {"name": "user", "type": "text"},
+    {"name": "amount", "type": "int"},
+    {"name": "approved", "type": "bool"}
+  ],
+  "grouping_sets": [
+    ["region"],
+    []
+  ],
+  "aggregates": [
+    {"name": "sum_amount", "op": "sum", "field": "amount"},
+    {
+      "name": "approved_users",
+      "op": "count_distinct",
+      "field": "user",
+      "filter": {"op": "eq", "left": {"field": "approved"}, "right": {"literal": true}}
+    },
+    {"name": "distinct_amount", "op": "sum_distinct", "field": "amount"}
+  ]
+}

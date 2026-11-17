@@ -1,0 +1,3 @@
+{"region": "A", "user": "u", "amount": 10, "approved": true}
+{"region": "B", "user": "u", "amount": 20, "approved": false}
+{"region": "A", "user": "v", "amount": null, "approved": true}

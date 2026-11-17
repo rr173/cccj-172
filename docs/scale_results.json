@@ -1,0 +1,65 @@
+[
+  {
+    "memory_entries": 20000,
+    "elapsed_s": 312.88,
+    "peak_rss_mb": 17.6,
+    "cells": 6,
+    "records_emitted": 13399926,
+    "intermediate_records_written": 26799852,
+    "spill_rounds": 670,
+    "merge_passes": 22,
+    "peak_resident_entries": 20000,
+    "spill_mb_written": 2432.2,
+    "grand_totals": {
+      "n": 1000000,
+      "sum_amount": -170496243,
+      "sumd_amount": -12817691,
+      "approved_users": 486512,
+      "min_amount": -999996,
+      "max_region": "R4"
+    },
+    "cells_match_baseline": true
+  },
+  {
+    "memory_entries": 50000,
+    "elapsed_s": 295.92,
+    "peak_rss_mb": 20.6,
+    "cells": 6,
+    "records_emitted": 13399926,
+    "intermediate_records_written": 26799852,
+    "spill_rounds": 268,
+    "merge_passes": 10,
+    "peak_resident_entries": 50000,
+    "spill_mb_written": 2432.2,
+    "grand_totals": {
+      "n": 1000000,
+      "sum_amount": -170496243,
+      "sumd_amount": -12817691,
+      "approved_users": 486512,
+      "min_amount": -999996,
+      "max_region": "R4"
+    },
+    "cells_match_baseline": true
+  },
+  {
+    "memory_entries": 150000,
+    "elapsed_s": 370.62,
+    "peak_rss_mb": 29.7,
+    "cells": 6,
+    "records_emitted": 13399926,
+    "intermediate_records_written": 26799852,
+    "spill_rounds": 90,
+    "merge_passes": 4,
+    "peak_resident_entries": 150000,
+    "spill_mb_written": 2432.2,
+    "grand_totals": {
+      "n": 1000000,
+      "sum_amount": -170496243,
+      "sumd_amount": -12817691,
+      "approved_users": 486512,
+      "min_amount": -999996,
+      "max_region": "R4"
+    },
+    "cells_match_baseline": true
+  }
+]

@@ -1,0 +1,10 @@
+# Runtime-generated scale data and scratch are never committed.
+/data/
+*.jsonl
+!fixtures/*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/

@@ -1,0 +1,2 @@
+{"region": "A", "user": "u", "amount": 10, "approved": true}
+{"region": "A", "user": "v", "amount": "not-an-int", "approved": true}

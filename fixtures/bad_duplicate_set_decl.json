@@ -1,0 +1,13 @@
+{
+  "fields": [
+    {"name": "region", "type": "text"},
+    {"name": "amount", "type": "int"}
+  ],
+  "grouping_sets": [
+    ["region"],
+    ["region"]
+  ],
+  "aggregates": [
+    {"name": "n", "op": "count"}
+  ]
+}
